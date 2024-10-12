@@ -8,7 +8,9 @@ const ACCEPTED_ORIGINS = [
 			'http://localhost:5173',
 			'https://pokemonreact.onrender.com',
 			'null',
-			'https://pokemonleagueapp.onrender.com/'
+			'https://pokemonleagueapp.onrender.com/',
+			'https://pokemonleagueapp.onrender.com',
+			'https:onrender.com/',
 			]
 
 export const corsMiddleware = ({acceptedOrigins = ACCEPTED_ORIGINS} = {}) => cors({
